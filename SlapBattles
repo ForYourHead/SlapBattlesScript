@@ -1,6 +1,6 @@
 -- Don't skid pls
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
-local PhantomForcesWindow = Library:NewWindow("[HALLOWEEN] SlapBattles")
+local PhantomForcesWindow = Library:NewWindow("Slap Battles")
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
 KillingCheats:CreateToggle("Auto Collect Candy", function(value)
 _G.Condition = true
